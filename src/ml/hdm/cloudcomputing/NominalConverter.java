@@ -14,8 +14,6 @@ public class NominalConverter {
 
 			data = numericToNominal(data, "1");
 			data = stringToNominal(data, "2-4");
-
-			// setting class attribute
 			data.setClassIndex(2);
 
 			Prism prism = new Prism();
