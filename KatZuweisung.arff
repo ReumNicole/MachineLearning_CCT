@@ -1,0 +1,20 @@
+@relation KatZuweisung
+
+@attribute Gespraechsname {Projektstatus_HighNet,Regeltermin_Root}
+@attribute Gehoert_zu_Projekt {HighNet,Root609}
+@attribute Teilnehmer_Vorname {Anja,Nadja,Georg,Mark,Alina}
+@attribute Teilnehmer_Nachname {Burkard,Lieslbach,Wolf,Friedrich,Trond}
+@attribute Token1 {Parksystem,Kosten,Fragen,Aufgaben,Schulung,Stand,Ablauf,Protokoll}
+@attribute Token2 {App,Planung,Quellcode,Meilenstein,Termin,HighNet}
+@attribute Token3 {Lastenheft,�bersicht,Software,Root609,Konzept,Thomas,Aktivit_ten,Termin}
+@attribute Dokumentenkategorie {HighNet_Projektdokument,HighNet_Planungsdokument,Root609_Projektdokument,Root609_Steruerungsdokument,Root609_Planungsdokument,Root609_Protokoll,HighNet_Steuerungsdokument,HighNet_Protokoll}
+
+@data
+Projektstatus_HighNet,HighNet,Anja,Burkard,Parksystem,App,Lastenheft,HighNet_Projektdokument
+Projektstatus_HighNet,HighNet,Nadja,Lieslbach,Kosten,Planung,�bersicht,HighNet_Planungsdokument
+Regeltermin_Root,Root609,Georg,Wolf,Fragen,Quellcode,Software,Root609_Projektdokument
+Regeltermin_Root,Root609,Mark,Friedrich,Aufgaben,Meilenstein,Root609,Root609_Steruerungsdokument
+Regeltermin_Root,Root609,Georg,Wolf,Schulung,Planung,Konzept,Root609_Planungsdokument
+Projektstatus_HighNet,HighNet,Nadja,Lieslbach,Stand,Termin,Thomas,Root609_Protokoll
+Projektstatus_HighNet,HighNet,Nadja,Lieslbach,Ablauf,App,Aktivit_ten,HighNet_Steuerungsdokument
+Regeltermin_Root,Root609,Alina,Trond,Protokoll,HighNet,Termin,HighNet_Protokoll

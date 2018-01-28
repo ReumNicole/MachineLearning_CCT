@@ -1,0 +1,14 @@
+@relation DokZuweisung
+
+@attribute 'Gespr�chsname;Geh�rt_zu_Projekt;Teilnehmer_Vorname ;Teilnehmer_Nachname;Token 1;Token 2;Token 3;Dokumentenkategorie' {;;;;;;;,'Projektstatus_HighNet;HighNet;Anja ;Burkard;Parksystem;App;Lastenheft;HighNet_Projektdokument','Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Kosten;Planung;�bersicht;HighNet_Planungsdokument',Regeltermin_Root;Root609;Georg;Wolf;Fragen;Quellcode;Software;Root609_Projektdokument,'Regeltermin_Root;Root609;Mark ;Friedrich;Aufgaben;Meilenstein;Root609;Root609_Steruerungsdokument',Regeltermin_Root;Root609;Georg;Wolf;Schulung;Planung;Konzept;Root609_Planungsdokument,'Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Stand;Termin;Thomas;Root609_Protokoll','Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Ablauf;App;Aktivit�ten;HighNet_Steuerungsdokument',Regeltermin_Root;Root609;Alina;Trond;Protokoll;HighNet;Termin;HighNet_Protokoll}
+
+@data
+;;;;;;;
+'Projektstatus_HighNet;HighNet;Anja ;Burkard;Parksystem;App;Lastenheft;HighNet_Projektdokument'
+'Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Kosten;Planung;�bersicht;HighNet_Planungsdokument'
+Regeltermin_Root;Root609;Georg;Wolf;Fragen;Quellcode;Software;Root609_Projektdokument
+'Regeltermin_Root;Root609;Mark ;Friedrich;Aufgaben;Meilenstein;Root609;Root609_Steruerungsdokument'
+Regeltermin_Root;Root609;Georg;Wolf;Schulung;Planung;Konzept;Root609_Planungsdokument
+'Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Stand;Termin;Thomas;Root609_Protokoll'
+'Projektstatus_HighNet;HighNet;Nadja ;Lieslbach;Ablauf;App;Aktivit�ten;HighNet_Steuerungsdokument'
+Regeltermin_Root;Root609;Alina;Trond;Protokoll;HighNet;Termin;HighNet_Protokoll
